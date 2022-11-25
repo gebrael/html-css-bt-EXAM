@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="icons/all.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="fixed-top header-scrolled">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <img src="imgs/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-row-reverse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link activee" aria-current="page" href="#home">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link on-hover" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link on-hover" href="#services">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link on-hover" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link on-hover" href="#news">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link on-hover" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="gear-box">
+      <i class="fa-solid fa-gear fa-xl fa-spin"></i>
+    </div>
+    <!-- LANDING PAGE START -->
+    <div id="home" class="hero bg-image">
+      <div class="overlay"></div>
+      <div class="display-table hero-content">
+        <div class="table-cell">
+          <div class="container">
+            <div class="img-cont">
+              <div class="my-photo"></div>
+            </div>
+            <h1 class="mb-4 hero-title">
+              Albert
+              <span>Walkers</span>
+            </h1>
+            <h2 class="hero-subtitle">I'm D</h2>
+            <div class="scroll-down">
+              <i
+                class="fa-solid fa-angles-down fa-xl fa-bounce"
+                style="--fa-bounce-height: 50px"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LANDING PAGE END -->
+
+    <!-- ABOUT SECTION START -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-title text-start">
+              <p>Biography</p>
+              <h3>About Me</h3>
+            </div>
+
+            <div class="row justify-content-between">
+              <div class="col-md-4 mb-5">
+                <div class="img-area">
+                  <img src="imgs/me.jpg" class="hidden-img" />
+                  <img src="imgs/me.jpg" class="my-photo" />
+                  <div class="photo-border"></div>
+                </div>
+              </div>
+
+              <div class="col-md-8">
+                <div class="content-area">
+                  <div class="title">
+                    <p>
+                      I'm Albert Walkers and
+                      <span class="pink-text">D</span>
+                    </p>
+                  </div>
+
+                  <div class="text">
+                    <p>
+                      Hi! My name is <span>Albert Walkers</span>. I am a Web
+                      Developer, and I'm very passionate and dedicated to my
+                      work. With 20 years experience as a professional Web
+                      developer, I have acquired the skills and knowledge
+                      necessary to make your project a success.
+                    </p>
+
+                    <div class="list">
+                      <ul
+                        class="list-group flex-row col-sm-12 justify-content-start"
+                      >
+                        <li class="col-lg-6 col-md-12">
+                          <i class="fa-solid fa-gift"></i>
+                          <span>Birthday:</span>
+                          01.07.1990
+                        </li>
+
+                        <li class="col-lg-6 col-md-12">
+                          <i class="fa-solid fa-calendar-days"></i>
+                          <span>Age:</span>
+                          30
+                        </li>
+
+                        <li class="col-lg-6 col-md-12">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <span>Location:</span>
+                          <a href="#" class="li-hover">
+                            44 Place, Plano, USA
+                          </a>
+                        </li>
+
+                        <li class="col-lg-6 col-md-12">
+                          <i class="fa-solid fa-gamepad"></i>
+                          <span>Interests:</span>
+                          Playstation, Reading
+                        </li>
+
+                        <li class="col-lg-6 col-md-12">
+                          <i class="fa-solid fa-building-columns"></i>
+                          <span>Study:</span>
+                          <a href="#" class="li-hover">
+                            Univercity of Chicago
+                          </a>
+                        </li>
+                        <li class="col-lg-6 col-md-12">
+                          <i class="fa-solid fa-graduation-cap"></i>
+                          <span>Degree:</span>
+                          Master
+                        </li>
+
+                        <li class="col-lg-6 col-md-12">
+                          <i class="fa-solid fa-envelope"></i>
+                          <span>Mail:</span>
+                          <a href="mail:myE-mail@gmail.com" class="li-hover">
+                            myE-mail@gmail.com
+                          </a>
+                        </li>
+
+                        <li class="col-lg-6 col-md-12">
+                          <i class="fa-solid fa-phone"></i> <span>Phone:</span>
+                          <a href="tel:+77 022 177 05 05" class="li-hover">
+                            +77 022 177 05 05
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="d-grid col-sm-12 col-lg-4 position-relative">
+                      <button class="cv-btn" type="button">Download CV</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- SERVICES SECTION START -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-title text-start">
+              <p>SERVICES</p>
+              <h3>Quality Services</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between gx-0 gy-5">
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-12 service-card">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="service-text">
+                <h3>Creative Design</h3>
+                <p>
+                  Web design is a similar process of creation, with the
+                  intention of presenting...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-12 service-card">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="service-text">
+                <h3>Web Development</h3>
+                <p>
+                  Web design is a similar process of creation, with the
+                  intention of presenting...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-12 service-card">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+              <div class="service-text">
+                <h3>Brand Identity</h3>
+                <p>
+                  Web design is a similar process of creation, with the
+                  intention of presenting...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-12 service-card">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa-solid fa-file-powerpoint"></i>
+              </div>
+              <div class="service-text">
+                <h3>Adobe Photoshop</h3>
+                <p>
+                  Web design is a similar process of creation, with the
+                  intention of presenting...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-12 service-card">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa-solid fa-a"></i>
+              </div>
+              <div class="service-text">
+                <h3>Adobe Illustrator</h3>
+                <p>
+                  Web design is a similar process of creation, with the
+                  intention of presenting...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-12 service-card">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+              <div class="service-text">
+                <h3>Social Media</h3>
+                <p>
+                  Web design is a similar process of creation, with the
+                  intention of presenting...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="text col-12 text-center">
+            <p>
+              Are you interested in working with me?
+              <a href="#contact" class="li-hover"> Let's started now</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES SECTION START -->
+
+    <!-- PORTFOLIO SECTION START -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-title text-start">
+              <p>Portfolio</p>
+              <h3>Featured Works</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 mb-4">
+            <ul>
+              <li class="on">All</li>
+              <li>Design</li>
+              <li>Brandig</li>
+              <li>Photography</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="img-container">
+              <img src="imgs/11.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="img-container">
+              <img src="imgs/6.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="img-container">
+              <img src="imgs/33.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="img-container">
+              <img src="imgs/4.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="img-container">
+              <img src="imgs/5.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="img-container">
+              <img src="imgs/22.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio-footer" class="portfolio-footer">
+      <div class="bg-custom">
+        <div class="container">
+          <div class="row content">
+            <div class="col-lg-3 col-md-6 title">
+              <h3>555</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div class="col-lg-3 col-md-6 title">
+              <h3>222</h3>
+              <p>Projects Finished</p>
+            </div>
+            <div class="col-lg-3 col-md-6 title">
+              <h3>444</h3>
+              <p>Awards Won</p>
+            </div>
+            <div class="col-lg-3 col-md-6 title">
+              <h3>777</h3>
+              <p>Drinked Espresso</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO SECTION END -->
+
+    <!-- NEWS SECTION START -->
+    <section id="news" class="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-title text-start">
+              <p>News</p>
+              <h3>Latest News</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="img-container">
+              <img src="imgs/1.jpg" alt="" />
+            </div>
+            <div class="news-title">
+              <h3>Developers watch out for these burnout symptoms</h3>
+              <p>By Alex Watson / 20 March 2020</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="img-container">
+              <img src="imgs/2.jpg" alt="" />
+            </div>
+            <div class="news-title">
+              <h3>How to be appreciated for your hard work as a developer</h3>
+              <p>By BROOK KENNEDY / 22 MAY 2020</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="img-container">
+              <img src="imgs/3.jpg" alt="" />
+            </div>
+            <div class="news-title">
+              <h3>How designers and developers can collaborate better</h3>
+              <p>By PAOLA ATKINS / 05 APRIL 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NEWS SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="section-title text-start">
+              <p>Contact</p>
+              <h3>Get In Touch</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="content">
+              <p>
+                Please fill out the form on this section to contact with me. Or
+                call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <input type="text" class="form-control mb-4" placeholder="Name" />
+            <input type="text" class="form-control mb-4" placeholder="Email" />
+            <div class="form-floating mb-4">
+              <textarea
+                class="form-control special"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+              ></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+            <div class="btn-dev position-relative mb-4">
+              <button class="cv-btn" type="button">Download CV</button>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 mb-4">
+            <div class="map">
+              <div class="bg-dark"></div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3344.5475949323754!2d-96.83046358481118!3d33.042047480892755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1651767301599!5m2!1sen!2seg"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <p>© Copyright 2019-2021. All rights are reserved.</p>
+          </div>
+          <div class="col-lg-6 col-md-12 icons text-end">
+            <i class="fa-brands fa-facebook-f fa-lg"></i>
+            <i class="fa-brands fa-twitter fa-lg"></i>
+            <i class="fa-brands fa-behance fa-lg"></i>
+            <i class="fa-solid fa-basketball fa-lg"></i>
+            <i class="fa-brands fa-tiktok fa-lg"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+<!-- <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="section-title text-start">
+            <p>Biography</p>
+            <h3>About Me</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
